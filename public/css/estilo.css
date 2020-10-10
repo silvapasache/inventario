@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+.contenido div{
+    padding: 15px;
+}
+.contenido div h1{
+    text-shadow: 2px 2px 3px;
+}
+.contenido .table{
+    font-family: 'Charm', cursive;
+    text-align: center;
+}
+.contenido .table thead th{
+    color:364f6b;
+    font-size: 24px;
+    text-align: center;
+}
+.contenido .table tbody tr .conteo{
+    background: #1A5276;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px;
+}
+.contenido .table tbody tr .conteo:hover{
+    background: #2874A6;
+    cursor: pointer;
+}
+@media only screen and (max-width:500px){
+    .contenido .table thead th{
+        font-size: 21px;
+    }
+}

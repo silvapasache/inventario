@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    $('#editar').on('show.bs.modal',function(event){
+        var boton=$(event.relatedTarget)
+        var id=boton.data('id')
+        var nombre=boton.data('nombre')
+        var email=boton.data('email')
+        var dni=boton.data('dni')
+        var telefono=boton.data('telefono')
+        var direccion=boton.data('direccion')
+        var usuario=boton.data('usuario')
+        var password=boton.data('password')
+        var idrol=boton.data('idrol')
+        var estado=boton.data('estado')
+        var modal=$(this)
+        modal.find('.modal-body #id_usuario').val(id)
+        modal.find('.modal-body #nombre').val(nombre)
+        modal.find('.modal-body #email').val(email)
+        modal.find('.modal-body #dni').val(dni)
+        modal.find('.modal-body #telefono').val(telefono)
+        modal.find('.modal-body #direccion').val(direccion)
+        modal.find('.modal-body #usuario').val(usuario)
+        modal.find('.modal-body #password').val(password)
+        modal.find('.modal-body #idrol').val(idrol).attr('selected')
+        modal.find('.modal-body #estado').val(estado).attr('selected')
+	});
+</script>
