@@ -28,9 +28,9 @@ Esta desarrollado con el framework laravel en su version 5.7.14.
 
 ## Configuracion
 
-Descargar o clonar el paquete git
-configurar la base de datos en .env
-executar el comando "php artisan migrate" crear las tablas en la base de datos conectada
+- Descargar o clonar el paquete git
+- configurar la base de datos en .env
+- executar el comando "php artisan migrate" crear las tablas en la base de datos conectada
 
 se debe crear los siguientes trigger para que el inventario se actualice automaticamente:
 ## Triggers
