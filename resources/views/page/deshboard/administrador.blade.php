@@ -42,7 +42,7 @@
           </div>
           <!--/.col-->
 
-          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <div class="info-box brown-bg">
               <i class="fa fa-cubes"></i>
               <div class="count">{{$producto->stock_total}}</div>
@@ -54,16 +54,6 @@
 
         </div>
         
-        <div>
-          <div class="col-lg-12">
-            <section class="panel">
-              <header class="panel-heading"><h3>Resumen</h3></header>
-              <div class="panel-body">
-              <canvas id="bar" height="300" width="500" style="width: 500px; height: 300px;"></canvas>
-              </div>
-            </section>
-          </div>
-        </div>
         <!--/.row-->
         
 
