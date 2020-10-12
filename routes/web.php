@@ -19,9 +19,9 @@
 
 
 Route::group(['middleware' => ['guest']], function () {
-    Route::get('/', function () {return view('welcome');});
-    Route::get('login', function(){return view('page.login');})->name('login');
-    Route::post('login', 'Auth\LoginController@login');
+    //Route::get('/', function () {return view('welcome');});
+    Route::get('/', function(){return view('page.login');})->name('login');
+    Route::post('/', 'Auth\LoginController@login');
 });
 
 Route::group(['middleware' => ['auth']], function () {
